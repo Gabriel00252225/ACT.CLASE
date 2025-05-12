@@ -1,19 +1,11 @@
 #include <iostream>
-#include <cmath>
+
 using namespace std;
 
-int main(){
-    char letra;
-    int nota;
-cout << "Ingresa tu nota" << endl;
-cin >> nota ;
-
-switch (letra)
+int main (){
+for (int i = 1; i <= 5; i++)
 {
-case 'a':
-    break;
-
-default:
-    break;
+    cout << i << "";
 }
+return 0;
 }
